@@ -1,0 +1,13 @@
+server:
+  port: 9098
+spring:
+  application:
+    name: Account-services
+  datasource:
+    url: jdbc:mysql://localhost:3306/bank
+    username: root
+    password: Shibani8144@
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
